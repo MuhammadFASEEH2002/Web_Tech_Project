@@ -17,20 +17,29 @@ import {
 function Login() {
   type user = {
     name: String,
-    email: String
+    email: String,
+    hd: String,
   };
   const [user, setUser] = useState<user>(Object)
   function handleCallbackResponse(response: any) {
     // console.log(response.credential)
-    const userObject = jwtDecode(response.credential);
+
     // console.log(userObject);
-    setUser(userObject);
-    const signInDiv = document.getElementById("signInDiv");
-    signInDiv.hidden = true;
+    console.log(jwtDecode(response.credential).hd)
+    if(jwtDecode(response.credential).hd ==="szabist.pk"){
+      setUser(jwtDecode(response.credential));
+      const signInDiv = document.getElementById("signInDiv");
+      signInDiv.hidden = true;
+      
+    }
+    else{
+      console.log("not a szabist user")
+    }
   }
   function signOut(event: React.MouseEvent<HTMLButtonElement>) {
     setUser({} as user)
-    document.getElementById("signInDiv").hidden = false;
+    const signInDiv = document.getElementById("signInDiv");
+      signInDiv.hidden = false;
 
   }
   useEffect(() => {
