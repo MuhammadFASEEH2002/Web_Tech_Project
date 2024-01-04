@@ -1,20 +1,15 @@
 import { useEffect, useState } from 'react'
 import { jwtDecode } from 'jwt-decode'
 import {
-  HStack,
-  Heading,
   Stack,
-  Text,
   Button,
-  Input,
-  InputGroup,
-  InputRightElement,
-  useToast,
-  Box
+  Box,
+  useToast
 } from "@chakra-ui/react";
 
 
 function Login() {
+  const toast=useToast()
   type user = {
     name: String,
     email: String,
@@ -25,25 +20,39 @@ function Login() {
     // console.log(response.credential)
 
     // console.log(userObject);
-    console.log(jwtDecode(response.credential).hd)
+    // console.log(jwtDecode(response.credential).hd)
     if(jwtDecode(response.credential).hd ==="szabist.pk"){
+      toast({
+        title:"Login Successful",
+        status:"success",
+        position:"top",
+        duration: 5000,
+        isClosable: true
+      })
       setUser(jwtDecode(response.credential));
-      const signInDiv = document.getElementById("signInDiv");
+      const signInDiv:any = document.getElementById("signInDiv");
       signInDiv.hidden = true;
       
     }
     else{
-      console.log("not a szabist user")
+      toast({
+        title:"Auth Error",
+        description:"Only szabist.pk email id's allowed",
+        status:"error",
+        position:"top",
+        duration: 5000,
+        isClosable: true
+      })
     }
   }
   function signOut(event: React.MouseEvent<HTMLButtonElement>) {
     setUser({} as user)
-    const signInDiv = document.getElementById("signInDiv");
+    const signInDiv:any = document.getElementById("signInDiv");
       signInDiv.hidden = false;
 
   }
   useEffect(() => {
-    /*global google */
+    /* global google */
     google.accounts.id.initialize({
       client_id: "187188309585-q16trkm21nc4305m7u87q7c0d6bpb74s.apps.googleusercontent.com",
       callback: handleCallbackResponse
