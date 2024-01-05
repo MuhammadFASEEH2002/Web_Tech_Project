@@ -9,7 +9,7 @@ import {
 
 
 function Login() {
-  const toast=useToast()
+  const toast = useToast()
   type user = {
     name: String,
     email: String,
@@ -17,29 +17,28 @@ function Login() {
   };
   const [user, setUser] = useState<user>(Object)
   function handleCallbackResponse(response: any) {
-    // console.log(response.credential)
 
-    // console.log(userObject);
-    // console.log(jwtDecode(response.credential).hd)
-    if(jwtDecode(response.credential).hd ==="szabist.pk"){
+    console.log(jwtDecode(response.credential))
+
+    if (jwtDecode(response.credential).hd === "szabist.pk") {
       toast({
-        title:"Login Successful",
-        status:"success",
-        position:"top",
+        title: "Login Successful",
+        status: "success",
+        position: "top",
         duration: 5000,
         isClosable: true
       })
       setUser(jwtDecode(response.credential));
-      const signInDiv:any = document.getElementById("signInDiv");
+      const signInDiv: any = document.getElementById("signInDiv");
       signInDiv.hidden = true;
-      
+
     }
-    else{
+    else {
       toast({
-        title:"Auth Error",
-        description:"Only szabist.pk email id's allowed",
-        status:"error",
-        position:"top",
+        title: "Auth Error",
+        description: "Only szabist.pk email id's allowed",
+        status: "error",
+        position: "top",
         duration: 5000,
         isClosable: true
       })
@@ -47,8 +46,8 @@ function Login() {
   }
   function signOut(event: React.MouseEvent<HTMLButtonElement>) {
     setUser({} as user)
-    const signInDiv:any = document.getElementById("signInDiv");
-      signInDiv.hidden = false;
+    const signInDiv: any = document.getElementById("signInDiv");
+    signInDiv.hidden = false;
 
   }
   useEffect(() => {
