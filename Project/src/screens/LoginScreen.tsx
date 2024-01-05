@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+// @ts-ignore
 import { jwtDecode } from 'jwt-decode'
 import {
   Stack,
@@ -48,14 +49,15 @@ function Login() {
     setUser({} as user)
     const signInDiv: any = document.getElementById("signInDiv");
     signInDiv.hidden = false;
-
   }
   useEffect(() => {
     /* global google */
+    // @ts-ignore
     google.accounts.id.initialize({
       client_id: "187188309585-q16trkm21nc4305m7u87q7c0d6bpb74s.apps.googleusercontent.com",
       callback: handleCallbackResponse
     });
+    // @ts-ignore
     google.accounts.id.renderButton(
       document.getElementById("signInDiv"),
       {
@@ -65,7 +67,7 @@ function Login() {
   }, [])
 
   return (
-    <>
+
       <Stack alignItems={'center'} justifyContent={'center'} height={'100%'} width={'100%'}>
         <Stack id="signInDiv"></Stack>
         {
@@ -78,7 +80,6 @@ function Login() {
           <Button onClick={(e) => { signOut(e) }}>Sign Out</Button>
         }
       </Stack>
-    </>
   )
 }
 
