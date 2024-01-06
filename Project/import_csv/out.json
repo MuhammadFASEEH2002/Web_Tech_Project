@@ -1,0 +1,1682 @@
+[
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Sadia Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Adnan Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Sheikh Usama Khalid",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Naveed Ghani",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Sadia Aziz",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Qamber Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Asher Tariq",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "A",
+        "teacher": "Hafeez Rehman",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Waqar Ahmed Malik",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Sarwat Tamer",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Sheikh Usama Khalid",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Muhammad Umair Arif",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Sadia Aziz",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Sanaullah Abbasi",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Sheikh Usama Khalid",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Asher Tariq",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "B",
+        "teacher": "Umar Khan",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Muhammad Tahir Abbasi",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Laila Raza",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Sheikh Usama Khalid",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Naveed Ghani",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Khalil Ur Rehman",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Qamber Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Asher Tariq",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "C",
+        "teacher": "Shahzad Abbasi",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Dr. Muhammad Fahim Akhtar",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Shaikh Bilal Ahmed",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Syed Muhammad Hassan",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Naveed Ghani",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Sadia Aziz",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Idrees Darbar",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Asher Tariq",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "D",
+        "teacher": "Umar Khan",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Muhammad Tahir Abbasi",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Sarwat Tamer",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Syed Muhammad Hassan",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Naveed Ghani",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Khalil Ur Rehman",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Hamza Hanif",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Arsalan Ilyas",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "E",
+        "teacher": "Umair Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Nazia Sultan",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Muhammad Younus",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Syed Nabeel",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Abdul H. Saeed",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Arsalan Sattar",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Hamza Hanif",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Saif Nadeem Magoon",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "F",
+        "teacher": "Hafeez Rehman",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Waqar Ahmed Malik",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Nida Shabbir",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Syed Nabeel",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Abdul H. Saeed",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Arsalan Sattar",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Junaid Raza",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Abid Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Arsalan Ilyas",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "G",
+        "teacher": "Umair Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Sadia Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1101",
+        "course": "Calculus and Analytical Geometry"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Muhammad Talha Saleem",
+        "crhr": "(3,0)",
+        "code": "CSC1102",
+        "course": "English Composition and Comprehension"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Mustafa Hassan Ali",
+        "crhr": "(3,0)",
+        "code": "CSC1103",
+        "course": "Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Kiran Fatima",
+        "crhr": "(2,0)",
+        "code": "CSC1107",
+        "course": "Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Muhammad Ali Fatmi",
+        "crhr": "(2,0)",
+        "code": "CSC1108",
+        "course": "Introduction to Computer Science"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Koonj Altaf",
+        "crhr": "(2,0)",
+        "code": "CSC1109",
+        "course": "Pakistan Studies"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Abid Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL1103",
+        "course": "Lab: Fundamentals of Programming"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Saif Nadeem Magoon",
+        "crhr": "(0,1)",
+        "code": "CSCL1107",
+        "course": "Lab: Applied Physics"
+    },
+    {
+        "semester": 1,
+        "section": "H",
+        "teacher": "Shahzad Abbasi",
+        "crhr": "(0,1)",
+        "code": "CSCL1108",
+        "course": "Lab: Introduction to Computer Science"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Syed Inam Ali Shah",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Muhammad Ali Fatmi",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Masood Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Mubeen Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Wali Muhammad Khubaib",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "A",
+        "teacher": "Idrees Darbar",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Faria Jameel",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Ayesha Ghayas",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Masood Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Mubeen Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Sobia Muhammad Rizwan",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "B",
+        "teacher": "Waseem Rauf",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Syed Inam Ali Shah",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Dr. Husnain Mansoor Ali",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Masood Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Mubeen Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Abid Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "C",
+        "teacher": "Syed Afshar Adnan",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Dr. Danish Hasan",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Ayesha Ghayas",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Masood Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Saqib Sadiq",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Syed Muhammad Hassan",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "D",
+        "teacher": "Waseem Rauf",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Faria Jameel",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Ayesha Ghayas",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Muhammad Shaheer Bhatty",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Aqeel Tahir",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Sobia Muhammad Rizwan",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "E",
+        "teacher": "Abid Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Dr. Danish Hasan",
+        "crhr": "(3,0)",
+        "code": "CSC1201",
+        "course": "Discrete Mathematical Structures"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Shahzaib Ahmed Khan",
+        "crhr": "(3,0)",
+        "code": "CSC1202",
+        "course": "Multivariate Calculus"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Dr. Husnain Mansoor Ali",
+        "crhr": "(3,0)",
+        "code": "CSC2102",
+        "course": "Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Muhammad Shaheer Bhatty",
+        "crhr": "(3,0)",
+        "code": "CSC2122",
+        "course": "Differential Equations"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Saqib Sadiq",
+        "crhr": "(3,0)",
+        "code": "CSC2201",
+        "course": "Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Noor Saqib",
+        "crhr": "(0,1)",
+        "code": "CSCL2102",
+        "course": "Lab: Data Structures and Algorithms"
+    },
+    {
+        "semester": 3,
+        "section": "F",
+        "teacher": "Abid Ali",
+        "crhr": "(0,1)",
+        "code": "CSCL2201",
+        "course": "Lab: Computer Organization and Assembly Language"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Ali Zaman",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Asif Khalid",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Marjan Sikandar",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Khawaja Mohiuddin",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Khurram Raza",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Noman Azam",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "A",
+        "teacher": "Daniyal Akbar",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Ali Zaman",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Asif Khalid",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Dr. Adeel Ansari",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Khawaja Mohiuddin",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Khurram Raza",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Noman Azam",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "B",
+        "teacher": "Daniyal Akbar",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Khalid Rasheed Shaikh",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Muhammad Asif Shaikh",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Dr. Adeel Ansari",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Ali Zaman",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Syed Shujaat Hussain",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Shahzaib Naveed",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "C",
+        "teacher": "Wali Muhammad Khubaib",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Khalid Rasheed Shaikh",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Faraz Afsar",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Dr. Adeel Ansari",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Ali Zaman",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Syed Shujaat Hussain",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Shahzaib Naveed",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "D",
+        "teacher": "Wali Muhammad Khubaib",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Khalid Rasheed Shaikh",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Faraz Afsar",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Dr. Adeel Ansari",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Khawaja Mohiuddin",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Khurram Raza",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Habiba Faisal",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "E",
+        "teacher": "Wali Muhammad Khubaib",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Khalid Rasheed Shaikh",
+        "crhr": "(2,0)",
+        "code": "CSC2126",
+        "course": "Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Muhammad Asif Shaikh",
+        "crhr": "(3,0)",
+        "code": "CSC2205",
+        "course": "Operating Systems"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Marjan Sikandar",
+        "crhr": "(3,0)",
+        "code": "CSC3109",
+        "course": "Software Engineering"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Khawaja Mohiuddin",
+        "crhr": "(3,0)",
+        "code": "CSC3201",
+        "course": "Compiler Construction"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Khurram Raza",
+        "crhr": "(3,0)",
+        "code": "CSC3203",
+        "course": "Numerical Computing"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Habiba Faisal",
+        "crhr": "(0,1)",
+        "code": "CSCL2126",
+        "course": "Lab: Software Construction and Development"
+    },
+    {
+        "semester": 5,
+        "section": "F",
+        "teacher": "Wali Muhammad Khubaib",
+        "crhr": "(0,1)",
+        "code": "CSCL2205",
+        "course": "Lab: Operating Systems"
+    },
+    {
+        "semester": 7,
+        "section": "A",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "A",
+        "teacher": "Bilal Hasan",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "B",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "B",
+        "teacher": "Bilal Hasan",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "C",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "C",
+        "teacher": "Dr. Shagufta Yasmin",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "D",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "D",
+        "teacher": "Dr. Shagufta Yasmin",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "E",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "E",
+        "teacher": "Tarique Haider",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "F",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "F",
+        "teacher": "Tarique Haider",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 7,
+        "section": "G",
+        "teacher": "Adeel Karim",
+        "crhr": "(0,3)",
+        "code": "CSC4105",
+        "course": "Final Year Project-I"
+    },
+    {
+        "semester": 7,
+        "section": "G",
+        "teacher": "Faraz Afsar",
+        "crhr": "(3,0)",
+        "code": "CSC4106",
+        "course": "Parallel and Distributed Computing"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Mobeen Nazar",
+        "crhr": "(3,0)",
+        "code": "CSC4501",
+        "course": "Business and Technology Ethics"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Faiz Alam",
+        "crhr": "(3,0)",
+        "code": "CSC4502",
+        "course": "Design and Creativity"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Maha Ali Jafarey",
+        "crhr": "(3,0)",
+        "code": "CSC4601",
+        "course": "Foreign Languages"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Tanzil Rehan Malik",
+        "crhr": "(3,0)",
+        "code": "CSC4603",
+        "course": "Management Principles"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Fatima Samar",
+        "crhr": "(3,0)",
+        "code": "CSC4605",
+        "course": "Sociology"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Dr. Nadia Syed",
+        "crhr": "(3,0)",
+        "code": "CSC4606",
+        "course": "Psychology"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Dr. Faraz Junejo",
+        "crhr": "(3,0)",
+        "code": "CSC4706",
+        "course": "Digital Image Processing"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Fahad Faiz",
+        "crhr": "(3,0)",
+        "code": "CSC4716",
+        "course": "Switching and Routing"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Asim Riaz",
+        "crhr": "(3,0)",
+        "code": "CSC4717",
+        "course": "Web Technologies-I"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Noor ul Ain Afaq",
+        "crhr": "(3,0)",
+        "code": "CSC4723",
+        "course": "Blockchain and Smart Contract Development"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Owais Kazmi",
+        "crhr": "(3,0)",
+        "code": "CSC4726",
+        "course": "Systems and Network Administration"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Ali Mobin Memon",
+        "crhr": "(3,0)",
+        "code": "CSC4727",
+        "course": "Hybrid Mobile Application Development"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Dr. Imran Amin",
+        "crhr": "(3,0)",
+        "code": "CSC4818",
+        "course": "Data Sciences"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Mobeen Nazar",
+        "crhr": "(3,0)",
+        "code": "CSC4501",
+        "course": "Business and Technology Ethics"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Beenish Sarfaraz",
+        "crhr": "(3,0)",
+        "code": "CSC4502",
+        "course": "Design and Creativity"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Abida Khaleeq",
+        "crhr": "(3,0)",
+        "code": "CSC4601",
+        "course": "Foreign Languages"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Fatima Samar",
+        "crhr": "(3,0)",
+        "code": "CSC4605",
+        "course": "Sociology"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Dr. Nadia Syed",
+        "crhr": "(3,0)",
+        "code": "CSC4606",
+        "course": "Psychology"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Fahad Faiz",
+        "crhr": "(3,0)",
+        "code": "CSC4716",
+        "course": "Switching and Routing"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Asim Riaz",
+        "crhr": "(3,0)",
+        "code": "CSC4717",
+        "course": "Web Technologies-I"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Noor ul Ain Afaq",
+        "crhr": "(3,0)",
+        "code": "CSC4722",
+        "course": "Introduction to Blockchain Technology"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Owais Kazmi",
+        "crhr": "(3,0)",
+        "code": "CSC4726",
+        "course": "Systems and Network Administration"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Ali Mobin Memon",
+        "crhr": "(3,0)",
+        "code": "CSC4727",
+        "course": "Hybrid Mobile Application Development"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Muhammad Ahsan",
+        "crhr": "(3,0)",
+        "code": "CSC4818",
+        "course": "Data Sciences"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Faiz Alam",
+        "crhr": "(3,0)",
+        "code": "CSC4502",
+        "course": "Design and Creativity"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Kashif Iqbal",
+        "crhr": "(3,0)",
+        "code": "CSC4601",
+        "course": "Foreign Languages"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Muhammad Shahzad Haroon",
+        "crhr": "(3,0)",
+        "code": "CSC4726",
+        "course": "Systems and Network Administration"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Ali Mobin Memon",
+        "crhr": "(3,0)",
+        "code": "CSC4727",
+        "course": "Hybrid Mobile Application Development"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Dr. Imran Amin",
+        "crhr": "(3,0)",
+        "code": "CSC4818",
+        "course": "Data Sciences"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Muhammad Shahzad Haroon",
+        "crhr": "(3,0)",
+        "code": "CSC4726",
+        "course": "Systems and Network Administration"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Ali Mobin Memon",
+        "crhr": "(3,0)",
+        "code": "CSC4727",
+        "course": "Hybrid Mobile Application Development"
+    },
+    {
+        "semester": 0,
+        "section": "Elective",
+        "teacher": "Muhammad Ahsan",
+        "crhr": "(3,0)",
+        "code": "CSC4818",
+        "course": "Data Sciences"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Syed Adeel Hussain Shah",
+        "crhr": "(3,0)",
+        "code": "CSC2206",
+        "course": "Linear Algebra"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Dr. Syed Sajjad Hussain Rizvi",
+        "crhr": "(3,0)",
+        "code": "CSC4101",
+        "course": "Artificial Intelligence"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Mashal Tariq",
+        "crhr": "(3,0)",
+        "code": "CSC4102",
+        "course": "Professional Practices"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Adeel Karim",
+        "crhr": "(3,0)",
+        "code": "CSC4205",
+        "course": "Final Year Project-II"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Tayyaba Jamali",
+        "crhr": "(3,0)",
+        "code": "CSC4504",
+        "course": "Organizational Behavior"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Muhammad Nabeel",
+        "crhr": "(0,1)",
+        "code": "CSCL1208",
+        "course": "Lab: Object Oriented Programming Techniques"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Abdul Basit Aftab",
+        "crhr": "(0,1)",
+        "code": "CSCL2103",
+        "course": "Lab: Digital Logic Design"
+    },
+    {
+        "semester": 0,
+        "section": "Open",
+        "teacher": "Mubeen Ahmed Khan",
+        "crhr": "(0,1)",
+        "code": "CSCL2202",
+        "course": "Lab: Data Communications and Computer Networks"
+    }
+]
