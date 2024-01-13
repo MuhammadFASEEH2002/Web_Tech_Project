@@ -1,8 +1,8 @@
-import fs  from 'fs'
+import fs from 'fs'
 import XLSX from 'xlsx';
 
 const workbook = XLSX.readFile('Data.xlsx');
-const sheetName = workbook.SheetNames[0]; 
+const sheetName = workbook.SheetNames[0];
 
 const worksheet = workbook.Sheets[sheetName];
 const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
@@ -10,45 +10,49 @@ const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
 console.log(jsonData);
 
 let outJson = [];
+let teachers = [];
 let temp = null;
 for (let i = 0; i < jsonData.length; i++) {
     const row = jsonData[i];
-    if(row.length == 1){
-      temp = getSemesterInfo(row[0])
-    }else{
-       if(row[0] !== 'S.#'){
-         const obj = { ...temp };
-         
-          obj.teacher =  row[2];
+    if (row.length == 1) {
+        temp = getSemesterInfo(row[0])
+    } else {
+        if (row[0] !== 'S.#') {
+            const obj = { ...temp };
 
-          let course = getCourseInfo(row[1]);
+            obj.teacher = row[2];
 
-          obj.crhr = course.creditHours
-          obj.code = course.coursecode
-          obj.course = course.coursename
+            teachers.push({ teacher : obj.teacher })
 
-          outJson.push(obj)
+            let course = getCourseInfo(row[1]);
 
-       }
+            obj.crhr = course.creditHours
+            obj.code = course.coursecode
+            obj.course = course.coursename
+
+            outJson.push(obj)
+
+        }
     }
-    
+
 }
 
-fs.writeFileSync('out.json',JSON.stringify(outJson) , 'utf-8')
+fs.writeFileSync('courses.json', JSON.stringify(outJson), 'utf-8')
+fs.writeFileSync('teachers.json', JSON.stringify(teachers), 'utf-8')
 
-function getSemesterInfo(val = ""){
+function getSemesterInfo(val = "") {
     const temp = val.split("-");
-    const semester = Number(temp?.[0]?.replaceAll('BSCS','')?.trim());
-    const section = temp?.[1]?.replaceAll('Section','')?.trim();
-    return { 
+    const semester = Number(temp?.[0]?.replaceAll('BSCS', '')?.trim());
+    const section = temp?.[1]?.replaceAll('Section', '')?.trim();
+    return {
         semester,
         section
     }
 }
-function getCourseInfo(val = ""){
+function getCourseInfo(val = "") {
     const temps = val.split(" ");
     const coursecode = temps[0];
-    const creditHours = temps[temps.length - 2]+ temps[temps.length - 1]
+    const creditHours = getCrhr(temps[temps.length - 2] + temps[temps.length - 1]);
 
 
     temps.pop()
@@ -62,4 +66,9 @@ function getCourseInfo(val = ""){
         creditHours,
         coursename
     }
+}
+function getCrhr(str) {
+    const values = str.replace(/[()]/g, '').split(',').map(Number);
+    const maxValue = Math.max(...values);
+    return maxValue
 }
