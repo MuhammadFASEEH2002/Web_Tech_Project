@@ -8,18 +8,9 @@ import {
   Box,
   useToast
 } from "@chakra-ui/react";
-type TypeUser = {
-  name: string,
-  email: string,
-  hd: string,
-};
+import TypeUser from '../utils/types/User';
+import CallBack_ResponseType from '../utils/types/Login';
 
-type CallBack_ResponseType = {
-  clientId: string,
-  client_id: string,
-  credential: string,
-  select_by: string,
-}
 
 function Login() {
   
@@ -47,7 +38,6 @@ function Login() {
         duration: 5000,
         isClosable: true
       })
-      setUser(decoded);
       const signInDiv: any = document.getElementById("signInDiv");
       signInDiv.hidden = true;
 
@@ -86,14 +76,8 @@ function Login() {
 
   return (
 
-    <Stack alignItems={'center'} justifyContent={'center'} height={'100%'} width={'100%'}>
+    <Stack alignItems={'center'} justifyContent={'center'} height={'100vh'} width={'100%'}>
       <Stack id="signInDiv"></Stack>
-      {
-        user && <Stack>
-          <Box>{user.name}</Box>
-          <Box>{user.email}</Box>
-        </Stack>
-      }
       {Object.keys(user).length != 0 &&
         <Button onClick={(e) => { signOut(e) }}>Sign Out</Button>
       }
