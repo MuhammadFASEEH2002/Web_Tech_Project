@@ -12,15 +12,17 @@ import {
 
 
 interface TypeCourse {
-    course : string,
-    code : string,
-    section : string,
-    semester : number
+  _id: string,
+  course: string,
+  code: string,
+  section: string,
+  semester: number
 }
 
-export default function Course({ course }: {course : TypeCourse}) {
+export default function Course({ course }: { course: TypeCourse }) {
   return (
-    <Center py={6}>
+    <Center py={6}
+    >
       <Box
         maxW={'330px'}
         w={'full'}
@@ -30,10 +32,10 @@ export default function Course({ course }: {course : TypeCourse}) {
         overflow={'hidden'}>
 
         <Box bg={useColorModeValue('gray.50', 'gray.900')} px={6} py={10}>
-         <Text fontWeight={'bold'} > {course.course}</Text>
-         <Text color={'gray'} >CODE : {course.code}</Text>
-         <Text color={'gray'} >SEMESTER : {course.semester}</Text>
-         <Text fontWeight={'bold'} >SECTION : {course.section}</Text>
+          <Text fontWeight={'bold'} > {course.course}</Text>
+          <Text color={'gray'} >CODE : {course.code}</Text>
+          <Text color={'gray'} >SEMESTER : {course.semester}</Text>
+          <Text fontWeight={'bold'} >SECTION : {course.section}</Text>
           <Button
             mt={5}
             w={'full'}
@@ -46,8 +48,11 @@ export default function Course({ course }: {course : TypeCourse}) {
             }}
             _focus={{
               bg: 'green.500',
-            }}>
-           View
+            }}
+            as='a'
+            href={`/view/${course._id}`}
+            >
+            View
           </Button>
         </Box>
       </Box>
