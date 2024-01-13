@@ -1,27 +1,45 @@
 import { useEffect, useState } from 'react'
 // @ts-ignore
 import { jwtDecode } from 'jwt-decode'
+import { useCookies } from 'react-cookie';
 import {
   Stack,
   Button,
   Box,
   useToast
 } from "@chakra-ui/react";
+type TypeUser = {
+  name: string,
+  email: string,
+  hd: string,
+};
 
+type CallBack_ResponseType = {
+  clientId: string,
+  client_id: string,
+  credential: string,
+  select_by: string,
+}
 
 function Login() {
+  
   const toast = useToast()
-  type user = {
-    name: String,
-    email: String,
-    hd: String,
-  };
-  const [user, setUser] = useState<user>(Object)
-  function handleCallbackResponse(response: any) {
+  const [cookies, setCookie] = useCookies();
+  const [user, setUser] = useState<TypeUser>(Object)
 
-    console.log(jwtDecode(response.credential))
+  function handleCallbackResponse(response: CallBack_ResponseType) {
 
-    if (jwtDecode(response.credential).hd === "szabist.pk") {
+    const decoded: TypeUser = jwtDecode(response.credential);
+
+    console.log(decoded)
+
+    if (decoded.hd === "szabist.pk") {
+
+      const currentDate = new Date();
+      // Expires in 10days
+      const expirationDate =  new Date(currentDate.getTime() + (10 * 24 * 60 * 60 * 1000));
+      setCookie("token" , response.credential, { path : '/' , expires : expirationDate})
+
       toast({
         title: "Login Successful",
         status: "success",
@@ -29,7 +47,7 @@ function Login() {
         duration: 5000,
         isClosable: true
       })
-      setUser(jwtDecode(response.credential));
+      setUser(decoded);
       const signInDiv: any = document.getElementById("signInDiv");
       signInDiv.hidden = true;
 
@@ -46,7 +64,7 @@ function Login() {
     }
   }
   function signOut(event: React.MouseEvent<HTMLButtonElement>) {
-    setUser({} as user)
+    setUser({} as TypeUser)
     const signInDiv: any = document.getElementById("signInDiv");
     signInDiv.hidden = false;
   }
@@ -68,18 +86,18 @@ function Login() {
 
   return (
 
-      <Stack alignItems={'center'} justifyContent={'center'} height={'100%'} width={'100%'}>
-        <Stack id="signInDiv"></Stack>
-        {
-          user && <Stack>
-            <Box>{user.name}</Box>
-            <Box>{user.email}</Box>
-          </Stack>
-        }
-        {Object.keys(user).length != 0 &&
-          <Button onClick={(e) => { signOut(e) }}>Sign Out</Button>
-        }
-      </Stack>
+    <Stack alignItems={'center'} justifyContent={'center'} height={'100%'} width={'100%'}>
+      <Stack id="signInDiv"></Stack>
+      {
+        user && <Stack>
+          <Box>{user.name}</Box>
+          <Box>{user.email}</Box>
+        </Stack>
+      }
+      {Object.keys(user).length != 0 &&
+        <Button onClick={(e) => { signOut(e) }}>Sign Out</Button>
+      }
+    </Stack>
   )
 }
 
