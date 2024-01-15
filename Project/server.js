@@ -9,6 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(express.json());
+app.use(express.static('upload'));
 app.use(cookieParser())
 app.use("/", indexRoute);
 

@@ -51,6 +51,9 @@ export default function Course({ course }: { course: TypeCourse }) {
             }}
             as='a'
             href={`/view/${course._id}`}
+            onClick={()=>{
+              localStorage.setItem("courseID", course._id);
+            }}
             >
             View
           </Button>

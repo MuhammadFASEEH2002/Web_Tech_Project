@@ -1,4 +1,5 @@
-import db from '../models/index.js'
+import db from '../models/index.js';
+
 
 
 export const getAllcourses = async (req, res) => {
@@ -17,3 +18,11 @@ export const getCourse = async (req, res) => {
       res.json({ status : false , message : error.message })
    }
 }
+export const postBest  = async (req, res) => {
+   const course = await db.Courses.findById(req.body.courseId);
+   console.log(course);
+   if(course){
+           const course = await db.Courses.findByIdAndUpdate({_id: req.body.courseID},{best: req.file.filename})
+   }
+}
+

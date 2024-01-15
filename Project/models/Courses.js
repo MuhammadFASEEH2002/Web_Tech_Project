@@ -8,6 +8,10 @@ const courseSchema = new Schema({
     section : String,
     course : String,
     teacher : String,
+    best: String,
+    average: String,
+    worst: String,
+
 });
 
 export const Courses = model("courses", courseSchema);
