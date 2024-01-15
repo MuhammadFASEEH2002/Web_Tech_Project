@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Box, Heading, Stack, Image, Input, Button,useToast } from "@chakra-ui/react";
+import { Box, Heading, Stack, Image, Input, Button, useToast } from "@chakra-ui/react";
 import Card from "../components/View/Card";
 import api from "../utils/api";
 import TypeUser from "../utils/types/User";
@@ -8,53 +8,64 @@ import { useCookies } from "react-cookie";
 
 
 export default function View() {
-  const toast = useToast()
+    const toast = useToast()
 
     const navigate = useNavigate();
     const [cookies, setCookie] = useCookies();
     const [isSelected, setisSelected] = useState<boolean>(false);
     const [selected, setSelected] = useState<string | null>(null);
     const [user, setUser] = useState<TypeUser | undefined>();
-    const [file, setFile] = useState<string | null>(null);
+    const [file, setFile] = useState(null);
 
-    const handleFileChange = (event:any) => {
+    const handleFileChange = (event) => {
         setFile(event.target.files[0]);
-      };
-
-      async function postBest() {
-        const formData = new FormData();
-        formData.append('file', file);
-      
-        try {
-          await api.post('/api/post-best', {
-            teacher: 'Sadia Aziz',
-            courseId: localStorage.getItem('courseID')
-          }).then((res) => {
-            // Handle the response here
-           if(res.status){
-            toast({
-                title: "File Uploaded",
-                status: "success",
-                position: "top",
-                duration: 5000,
-                isClosable: true
-              })
-           }
-            // Additional actions or logic
-          });
-        } catch (error) {
-          // Handle the error here
-        }
-      }
+    };
     useEffect(() => {
         getMe()
     }, [])
+    async function postBest() {
+        const formData = new FormData();
+        formData.append('file', file);
+        // formData.append('filename', file.name);
+
+        try {
+            const upload = await api.post('/api/post-best', {
+                teacher: 'Sadia Aziz',
+                courseId: localStorage.getItem('courseID'),
+                formData,
+            });
+            if (upload.status) {
+                toast({
+                    title: "File Uploaded",
+                    status: "success",
+                    position: "top",
+                    duration: 5000,
+                    isClosable: true
+                })
+            }
+            // .then((res) => {
+            //     // Handle the response here
+            //    if(res.status){
+            //     toast({
+            //         title: "File Uploaded",
+            //         status: "success",
+            //         position: "top",
+            //         duration: 5000,
+            //         isClosable: true
+            //       })
+            //    }
+            //     // Additional actions or logic
+        } catch (error) {
+            // Handle the error here
+        }
+    }
 
     async function getMe() {
         try {
             const { data } = await api.get('/api/me');
             if (data.status) {
                 setUser(data.user)
+                console.log(data.user)
             } else {
                 setCookie('token', '')
                 navigate('/')
@@ -73,9 +84,9 @@ export default function View() {
             >
                 <Image src="../../pdf.svg" width={100} height={100} />
                 <Heading fontSize={'lg'} >Select Pdf File</Heading>
-                <Input type="file" accept="application/pdf"    onChange={handleFileChange} />
-                <Button onClick={()=>{
-                    if(selected=="BEST"){
+                <Input type="file" accept="application/pdf" onChange={handleFileChange} />
+                <Button onClick={() => {
+                    if (selected == "BEST") {
                         postBest();
                     }
                 }}>Submit</Button>
