@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Box, Center, HStack, Input } from "@chakra-ui/react";
+import { Center, HStack, Input } from "@chakra-ui/react";
 import api from "../utils/api";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
@@ -9,7 +9,7 @@ import TypeUser from "../utils/types/User";
 
 export default function Home() {
     const navigate = useNavigate();
-    const [cookies, setCookie] = useCookies();
+    const [, setCookie] = useCookies();
     const [user, setUser] = useState<TypeUser | undefined>();
     const [courses, setCourses] = useState([]);
 
@@ -33,7 +33,7 @@ export default function Home() {
         }
     }
     async function getCourses() {
-        const { data } = await api.post('/api/courses', { teacher: 'Sadia Aziz' })
+        const { data } = await api.post('/api/courses', { teacher: user?.name })
         if (data.status) {
             setCourses(data.courses)
         }
@@ -44,7 +44,7 @@ export default function Home() {
                 <Input variant='outline' placeholder='Search Courses' />
             </HStack>
         </Center>
-        <HStack>
+        <HStack flexWrap={'wrap'} >
             {courses.map(course => {
                 return <Course course={course} />
             })}

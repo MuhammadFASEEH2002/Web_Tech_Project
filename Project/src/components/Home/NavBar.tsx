@@ -27,7 +27,7 @@ interface NavProps {
   user : TypeUser | undefined
 }
 
-const Links = ['Uploads']
+const Links = ['uploads']
 
 const NavLink = (props: Props) => {
   const { children } = props
