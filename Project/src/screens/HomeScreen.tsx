@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Center, HStack, Input } from "@chakra-ui/react";
+import { Center, HStack, Input, Text } from "@chakra-ui/react";
 import api from "../utils/api";
 import { useNavigate } from "react-router-dom";
 import { useCookies } from "react-cookie";
@@ -13,6 +13,8 @@ export default function Home() {
     const [user, setUser] = useState<TypeUser | undefined>();
     const [search, setSearch] = useState<string | null>(null);
     const [courses, setCourses] = useState([]);
+    const [searchCourses, setSearchCourses] = useState([]);
+
     const [isVerified, setIsVerified] = useState<boolean>(false);
     
     const handleInputChange = (event:any, setState:any) => {
@@ -44,19 +46,28 @@ export default function Home() {
             setCourses(data.courses)
         }
     }
-    async function searchCourses() {
-        const { data } = await api.post('/api/search', { search: search, teacher: "Sadia Aziz" } )
+    async function searchCourse() {
+        const { data } = await api.post('/api/search', { search: search } )
         if (data.status) {
-            setCourses(data.courses)
+            setSearchCourses(data.courses)
         }
     }
     return <Nav user={user} >
         <Center>
             <HStack width={'50%'}>
-                <Input variant='outline' placeholder='Search Courses' onChange={(event) => { handleInputChange(event, setSearch) }} onKeyDown={(event) => { if (event.key === "Enter") { searchCourses() } }} />
+                <Input variant='outline' placeholder='Search Courses' onChange={(event) => { handleInputChange(event, setSearch); searchCourse(); }} />
             </HStack>
         </Center>
+            <Text>Search Results:</Text>
         <HStack flexWrap={'wrap'} >
+            {search!="" && searchCourses.map(search => {
+            
+                return <Course course={search} />
+            })}
+        </HStack>
+        <Text>Current Courses:</Text>
+        <HStack flexWrap={'wrap'} >
+
             {courses.map(course => {
             
                 return <Course course={course} />
