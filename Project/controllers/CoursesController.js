@@ -19,6 +19,19 @@ export const getCourse = async (req, res) => {
       res.json({ status : false , message : error.message })
    }
 }
+export const searchCourse = async (req, res) => {
+   try {
+      const courses = await db.Courses.find({
+         $or: [
+            { teacher: { $regex: req.body.search, $options: "i" } },
+            { course: { $regex: req.body.search, $options: "i" } }
+         ]
+      });
+      res.json({ status: true, courses });
+   } catch (error) {
+      res.json({ status: false, message: error.message });
+   }
+};
 export const getfiles = async (req, res) =>{
    try {
       const files = await db.Files.find({ course : req.body.courseId , type : req.body.type }).populate('course')

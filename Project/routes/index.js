@@ -16,7 +16,7 @@ router.get("/msg", (req, res) => {
 // router.get('/courses' , CoursesCtrl.getAllcourses)
 
 router.get('/me', authCtrl.getMe)
-
+router.post('/search', CoursesCtrl.searchCourse)
 router.post('/courses', CoursesCtrl.getCourse)
 router.post('/files', CoursesCtrl.getfiles)
 router.post("/upload/pdf", uploadMiddleWare.single("pdf"), uploadCtrl.uploadFile );
