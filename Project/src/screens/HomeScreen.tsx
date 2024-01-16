@@ -33,7 +33,7 @@ export default function Home() {
         }
     }
     async function getCourses() {
-        const { data } = await api.post('/api/courses', { teacher: user?.name })
+        const { data } = await api.post('/api/courses', { teacher: user?.name || "Asim Riaz" })
         if (data.status) {
             setCourses(data.courses)
         }
