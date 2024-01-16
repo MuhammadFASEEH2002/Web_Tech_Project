@@ -11,7 +11,13 @@ export default function Home() {
     const navigate = useNavigate();
     const [, setCookie] = useCookies();
     const [user, setUser] = useState<TypeUser | undefined>();
+    const [search, setSearch] = useState<string | null>(null);
     const [courses, setCourses] = useState([]);
+    const [isVerified, setIsVerified] = useState<boolean>(false);
+    
+    const handleInputChange = (event:any, setState:any) => {
+        setState(event.target.value);
+    }
 
     useEffect(() => {
         getMe()
@@ -33,7 +39,13 @@ export default function Home() {
         }
     }
     async function getCourses() {
-        const { data } = await api.post('/api/courses', { teacher: user?.name || "Asim Riaz" })
+        const { data } = await api.post('/api/courses', { teacher: user?.name || "Sadia Aziz" })
+        if (data.status) {
+            setCourses(data.courses)
+        }
+    }
+    async function searchCourses() {
+        const { data } = await api.post('/api/search', { search: search, teacher: "Sadia Aziz" } )
         if (data.status) {
             setCourses(data.courses)
         }
@@ -41,11 +53,12 @@ export default function Home() {
     return <Nav user={user} >
         <Center>
             <HStack width={'50%'}>
-                <Input variant='outline' placeholder='Search Courses' />
+                <Input variant='outline' placeholder='Search Courses' onChange={(event) => { handleInputChange(event, setSearch) }} onKeyDown={(event) => { if (event.key === "Enter") { searchCourses() } }} />
             </HStack>
         </Center>
         <HStack flexWrap={'wrap'} >
             {courses.map(course => {
+            
                 return <Course course={course} />
             })}
 
